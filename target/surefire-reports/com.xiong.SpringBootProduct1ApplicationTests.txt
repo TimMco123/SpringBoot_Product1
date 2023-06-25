@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.xiong.SpringBootProduct1ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.325 s - in com.xiong.SpringBootProduct1ApplicationTests

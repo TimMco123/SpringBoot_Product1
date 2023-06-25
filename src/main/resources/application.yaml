@@ -1,0 +1,19 @@
+server:
+  port: 6868
+  tomcat:
+    uri-encoding: UTF-8
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/SpringBoot_Product1?characterEncoding=UTF-8&serverTimezone=GMT%2B8
+    username: root
+    password: 123456Qwe
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath:/mappers/*.xml
+  type-aliases-package: com.xiong.pojo
